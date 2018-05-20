@@ -58,6 +58,9 @@ public class Wrapper_Pagefactory {
 		ologger.endTest();
 	}
 	
+	public void print(){
+		System.out.println("Push latest change");
+	}
 	
 	
 	@Test (priority=1)	

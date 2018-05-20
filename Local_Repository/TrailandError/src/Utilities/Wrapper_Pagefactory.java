@@ -58,6 +58,8 @@ public class Wrapper_Pagefactory {
 		ologger.endTest();
 	}
 	
+	
+	
 	@Test (priority=1)	
 	public void candidate_login(){
 	ologger.startTest("Candidate Login", "Login as Candidate");

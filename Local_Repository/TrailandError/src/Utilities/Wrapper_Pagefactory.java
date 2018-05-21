@@ -58,11 +58,6 @@ public class Wrapper_Pagefactory {
 		ologger.endTest();
 	}
 	
-	public void print(){
-		System.out.println("Push latest change");
-	}
-	
-	
 	@Test (priority=1)	
 	public void candidate_login(){
 	ologger.startTest("Candidate Login", "Login as Candidate");
